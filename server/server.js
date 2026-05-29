@@ -9,6 +9,8 @@ const authMiddleware = require('./middleware/authMiddleware');
 const taskRoutes = require('./routes/taskRoutes');
 
 const app = express();
+app.use(cors());
+app.use(express.json());
 require('./cron/reminderCron');
 app.use(cors());
 
