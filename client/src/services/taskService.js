@@ -1,7 +1,7 @@
 //  connects Dashboard ↔ Backend APIs
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/tasks';
+const API_URL = 'http://https://task-management-api-l2xz.onrender.com/api/tasks';
 
 const getToken = () => {
 
